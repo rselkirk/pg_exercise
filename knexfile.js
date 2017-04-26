@@ -4,11 +4,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: {
-      database: 'vagrant',
-      user:     'development',
-      password: 'development'
-    }
+    connection: settings
   },
 
   staging: {
